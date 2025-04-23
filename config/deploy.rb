@@ -22,7 +22,7 @@ ask :branch, "main"
 # set :pty, true
 
 # Default value for :linked_files is []
-append :linked_files, "config/credentials/production.key", "config/credentials/production.yml.enc"
+append :linked_files, "config/credentials/production.key"
 
 # Default value for linked_dirs is []
 # append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system", "vendor", "storage"
