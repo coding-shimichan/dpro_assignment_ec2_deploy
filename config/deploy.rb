@@ -6,7 +6,7 @@ set :repo_url, "https://github.com/coding-shimichan/dpro_assignment_ec2_deploy.g
 set :bundle_without, %w{test}.join(':')
 
 # Default branch is :master
-# ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
+ask :branch, "main"
 
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to, "/var/www/my_app_name"
